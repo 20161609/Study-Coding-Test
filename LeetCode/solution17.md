@@ -93,4 +93,4 @@ groups = [num_dict[digit] for digit in digits]  # ['abc', 'def', 'ghi']
 combinations = list(product(*groups))
 ```
 
----
+---git 
