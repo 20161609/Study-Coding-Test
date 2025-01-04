@@ -8,16 +8,13 @@
 # Approach
 
 1. Create Top node. And Insert the head node into top’s next.
+![alt text](image.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/76ae0795-5575-4f38-b716-f3648abce37a/58e0c8fe-6e93-4baf-96bc-4d89ad38627e/image.png)
+2. Create a list including all nodes in reversed order. When n = 2, n th number would be 4.
+![alt text](image-1.png)
 
-1. Create a list including all nodes in reversed order. When n = 2, n th number would be 4.
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/76ae0795-5575-4f38-b716-f3648abce37a/e7ab675b-d720-412c-947b-9b683841921e/image.png)
-
-1. box[n-1]’s parent node is box[n].. To remove box[n-1], insert box[n-1]’s child node into box[n]’s child node.
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/76ae0795-5575-4f38-b716-f3648abce37a/bad58c9d-eb1b-4592-be27-49d23411af33/image.png)
+3. box[n-1]’s parent node is box[n].. To remove box[n-1], insert box[n-1]’s child node into box[n]’s child node.
+![alt text](image-2.png)
 
 ---
 
