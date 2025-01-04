@@ -2,6 +2,9 @@
 
 ---
 
+> 2024.12.10
+> 
+
 # Approach
 
 1. Use a list(`box`) where each index corresponds to a row in the zigzag pattern.
